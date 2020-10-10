@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Moon';
+    src: url('fonts/Moon_Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Moon';
+    font-weight: bold;
+    src: url('fonts/Moon_Bold.otf') format('opentype');
+}
+html,body { 
+	height: 92%; 
+}
+
+body { 
+	background:rgb(84, 84, 84); 
+}
+
+a { 
+	color: #D8D8D8; 
+	text-decoration: none; 
+	transition: 0.3s; 
+}
+a:hover, a:focus { 
+	color: rgb(164, 163, 163); 
+}
+article { 
+	position: relative; 
+	top: 50%; 
+	transform: translateY(-50%); 
+	padding: 20px; 
+	font-family: 'Moon', sans-serif; 
+	text-align: center; 
+}
+.fp { 
+	font-size: 30px; 
+	color: #D8D8D8;
+}
+.ext { 
+	font-size: 12px; 
+	font-weight: bold; 
+	color: #D8D8D8; 
+}
+.ext a { 
+	margin: 0 10px; 
+}
+.ext .fa { 
+	margin: 0 2px; 
+	font-size: 16px; 
+	transition: 0.3s; 
+}
+.ext a:hover .fa-snapchat-ghost { 
+	transition: 0.3s; 
+	color: #FFFC00; 
+}
+.ext a:hover .fa-github { 
+	transition: 0.3s; 
+	color: #4078c0; 
+}
+.ext a:hover .fa-instagram { 
+	transition: 0.3s; 
+	color: #833ab4; 
+}
+.ext a:hover .fa-envelope { 
+	transition: 0.3s; 
+	color: #fd9800; 
+}
+
+@media (max-width: 700px) {
+    .fp { font-size: 20px; }
+    .fp nobr { display: block; }
+    .ext { margin-top: 60px; }
+    .ext a { display: block; margin: 30px 0 0 10px; }
+}
