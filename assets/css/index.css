@@ -31,43 +31,43 @@ article {
 	font-family: 'Moon', sans-serif; 
 	text-align: center; 
 }
-.fp { 
+.name { 
 	font-size: 30px; 
 	color: #D8D8D8;
 }
-.ext { 
+.bShelf { 
 	font-size: 12px; 
 	font-weight: bold; 
 	color: #D8D8D8; 
 }
-.ext a { 
+.bShelf a { 
 	margin: 0 10px; 
 }
-.ext .fa { 
+.bShelf .fa { 
 	margin: 0 2px; 
 	font-size: 16px; 
 	transition: 0.3s; 
 }
-.ext a:hover .fa-snapchat-ghost { 
+.bShelf a:hover .fa-snapchat-ghost { 
 	transition: 0.3s; 
 	color: #FFFC00; 
 }
-.ext a:hover .fa-github { 
+.bShelf a:hover .fa-github { 
 	transition: 0.3s; 
 	color: #4078c0; 
 }
-.ext a:hover .fa-instagram { 
+.bShelf a:hover .fa-instagram { 
 	transition: 0.3s; 
 	color: #833ab4; 
 }
-.ext a:hover .fa-envelope { 
+.bShelf a:hover .fa-envelope { 
 	transition: 0.3s; 
 	color: #fd9800; 
 }
 
 @media (max-width: 700px) {
-    .fp { font-size: 20px; }
-    .fp nobr { display: block; }
-    .ext { margin-top: 60px; }
-    .ext a { display: block; margin: 30px 0 0 10px; }
+    .name { font-size: 20px; }
+    .name nobr { display: block; }
+    .bShelf { margin-top: 60px; }
+    .bShelf a { display: block; margin: 30px 0 0 10px; }
 }
