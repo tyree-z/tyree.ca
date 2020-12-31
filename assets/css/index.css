@@ -8,12 +8,11 @@
     src: url('fonts/Moon_Bold.otf') format('opentype');
 }
 html,body { 
-	height: 92%; 
+	height: 100%; 
+	overflow: hidden;
+	background: #000;
 }
 
-body { 
-	background:rgb(84, 84, 84); 
-}
 
 a { 
 	color: #D8D8D8; 
