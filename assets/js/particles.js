@@ -5,7 +5,7 @@ let canvas = document.getElementById("canvas"),
 	h,
 	particles = [];
 
-const Tau = Math.PI * 2,
+const Tau = Math.PI * 1,
 	  ConnectionDist = 200, 
 	  maxParticles = 100, 
 	  radius = 2,
@@ -13,9 +13,9 @@ const Tau = Math.PI * 2,
       Mrandom = Math.random;
 
 function handleResize(){
-	w = ctx.canvas.width = window.innerWidth;
-	h = ctx.canvas.height = window.innerHeight;
-	midX = w * .5;
+	w = ctx.canvas.width = window.parent.outerWidth;
+	h = ctx.canvas.height = window.parent.outerHeight;
+	midX = w * 0;
 }
 window.onresize = () => handleResize();
 handleResize();

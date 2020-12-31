@@ -15,7 +15,6 @@ html,body {
 
 canvas { 
 	height: 100%; 
-	overflow: hidden;
 }
 
 
@@ -27,7 +26,7 @@ a {
 a:hover, a:focus { 
 	color: rgb(164, 163, 163); 
 }
-article { 
+.mainContent { 
 	position: relative; 
 	top: 50%; 
 	transform: translateY(-50%); 
@@ -35,6 +34,14 @@ article {
 	font-family: 'Moon', sans-serif; 
 	text-align: center; 
 }
+.canvasContent { 
+	position: relative; 
+	top: 50%; 
+	transform: translateY(-50%); 
+	margin-bottom: 246px;
+	top: 400px;
+}
+
 .name { 
 	font-size: 30px; 
 	color: #D8D8D8;
