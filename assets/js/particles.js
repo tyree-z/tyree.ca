@@ -6,20 +6,22 @@ let canvas = document.getElementById("canvas"),
 	particles = [];
 
 const Tau = Math.PI * 1,
-	  ConnectionDist = 500, 
-	  maxParticles = 20, 
+	  ConnectionDist = (( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 )) ? 30:100, 
+	  maxParticles = (( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 )) ? 10:100, 
 	  radius = 2,
       Msqrt = Math.sqrt,
-      Mrandom = Math.random;
+	  Mrandom = Math.random;
+	  
+	  console.log(`${maxParticles} is the particle count`);
+	  console.log(`${ConnectionDist} is connection distance`);
+	  
 
-function handleResize(){
-	if (window.innerHeight < '800'){
-		
+	  function handleResize(){
+		w = ctx.canvas.width = window.innerWidth;
+		h = ctx.canvas.height = window.innerHeight;
+		midX = w * 0;
 	}
-	w = ctx.canvas.width = window.innerWidth;
-	h = ctx.canvas.height = window.innerHeight;
-	midX = w * 0;
-}
+
 window.onresize = () => handleResize();
 handleResize();
 
