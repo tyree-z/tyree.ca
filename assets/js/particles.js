@@ -6,13 +6,16 @@ let canvas = document.getElementById("canvas"),
 	particles = [];
 
 const Tau = Math.PI * 1,
-	  ConnectionDist = 100, 
-	  maxParticles = 100, 
+	  ConnectionDist = 500, 
+	  maxParticles = 20, 
 	  radius = 2,
       Msqrt = Math.sqrt,
       Mrandom = Math.random;
 
 function handleResize(){
+	if (window.innerHeight < '800'){
+		
+	}
 	w = ctx.canvas.width = window.innerWidth;
 	h = ctx.canvas.height = window.innerHeight;
 	midX = w * 0;
