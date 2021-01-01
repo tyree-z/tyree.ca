@@ -12,15 +12,14 @@ const Tau = Math.PI * 1,
       Msqrt = Math.sqrt,
 	  Mrandom = Math.random;
 	  
-	  console.log(`${maxParticles} is the particle count`);
-	  console.log(`${ConnectionDist} is connection distance`);
+console.log(`${maxParticles} is the particle count`);
+console.log(`${ConnectionDist} is the connection distance between nodes`);
 	  
-	  function handleResize(){
-		w = ctx.canvas.width = window.innerWidth;
-		h = ctx.canvas.height = window.innerHeight;
-		midX = w * 0;
-	}
-
+function handleResize(){
+	w = ctx.canvas.width = window.innerWidth;
+	h = ctx.canvas.height = window.innerHeight;
+	midX = w * 0;
+}
 window.onresize = () => handleResize();
 handleResize();
 
