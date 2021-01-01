@@ -14,7 +14,7 @@ html,body {
 }
 
 canvas { 
-	height: 100%; 
+	position: relative;
 }
 
 a { 
@@ -73,9 +73,45 @@ a:hover, a:focus {
 	color: #fd9800; 
 }
 
-@media (max-width: 700px) {
+
+@media (max-width: 900px) {
+	.mainContent { right: auto; left: 25%;}
+}
+
+@media (max-width: 800px) {
     .name { font-size: 20px; }
     .name nobr { display: block; }
-    .bShelf { margin-top: 60px; }
+    .bShelf { margin-top: 10px; }
+	.bShelf a { display: block; margin: 30px 0 0 10px; }
+	.mainContent { right: auto; left: 30%;}
+
+}
+
+@media (max-width: 700px) {
+	.mainContent { right: auto; left: 30%;}
+}
+
+@media (max-width: 600px) {
+	.mainContent { right: auto; left: 25%;}
+}
+
+@media (max-width: 500px) {
+    .name { font-size: 20px; }
+    .name nobr { display: block; }
+    .bShelf { margin-top: 10px; }
     .bShelf a { display: block; margin: 30px 0 0 10px; }
+	.mainContent { right: auto; left: 20%;}
+}
+
+@media (max-width: 400px) {
+	.mainContent { right: auto; left: 15%;}
+}
+
+@media (max-width: 300px) {
+	.mainContent { right: auto; left: 5%;}
+}
+
+@media (max-width: 200px) {
+	.name { font-size: 15px;}
+	.mainContent { right: auto; left: 1%;}
 }
