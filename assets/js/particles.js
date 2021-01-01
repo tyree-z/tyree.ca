@@ -7,7 +7,7 @@ let canvas = document.getElementById("canvas"),
 
 const Tau = Math.PI * 1,
 	  ConnectionDist = (( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 )) ? 30:100, 
-	  maxParticles = (( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 )) ? 10:100, 
+	  maxParticles = (( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 )) ? 5:100, 
 	  radius = 2,
       Msqrt = Math.sqrt,
 	  Mrandom = Math.random;
