@@ -42,11 +42,13 @@ a:hover, a:focus {
 .name { 
 	font-size: 30px; 
 	color: #D8D8D8;
+	text-shadow:1px 1px 15px #000;
 }
 .bShelf { 
 	font-size: 12px; 
 	font-weight: bold; 
 	color: #D8D8D8; 
+	text-shadow:1px 1px 15px #000;
 }
 .bShelf a { 
 	margin: 0 10px; 
