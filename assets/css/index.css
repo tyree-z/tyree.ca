@@ -75,9 +75,24 @@ a:hover, a:focus {
 	color: #fd9800; 
 }
 
+@media (max-width: 1000px) {
+	.mainContent { right: auto; left: 21%;}
+}
+@media (max-width: 950px) {
+	.mainContent { right: auto; left: 20%;}
+}
 
 @media (max-width: 900px) {
-	.mainContent { right: auto; left: 25%;}
+	.mainContent { right: auto; left: 19%;}
+}
+
+@media (max-width: 850px) {
+    .name { font-size: 20px; }
+    .name nobr { display: block; }
+    .bShelf { margin-top: 10px; }
+	.bShelf a { display: block; margin: 30px 0 0 10px; }
+	.mainContent { right: auto; left: 33%;}
+
 }
 
 @media (max-width: 800px) {
@@ -85,23 +100,38 @@ a:hover, a:focus {
     .name nobr { display: block; }
     .bShelf { margin-top: 10px; }
 	.bShelf a { display: block; margin: 30px 0 0 10px; }
-	.mainContent { right: auto; left: 30%;}
+	.mainContent { right: auto; left: 32%;}
 
 }
 
+@media (max-width: 750px) {
+	.mainContent { right: auto; left: 32%;}
+}
 @media (max-width: 700px) {
 	.mainContent { right: auto; left: 30%;}
 }
 
-@media (max-width: 600px) {
-	.mainContent { right: auto; left: 25%;}
+@media (max-width: 650px) {
+	.mainContent { right: auto; left: 28%;}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+	.mainContent { right: auto; left: 27%;}
+}
+
+@media (max-width: 550px) {
     .name { font-size: 20px; }
     .name nobr { display: block; }
     .bShelf { margin-top: 10px; }
     .bShelf a { display: block; margin: 30px 0 0 10px; }
+	.mainContent { right: auto; left: 25%;}
+}
+
+@media (max-width: 500px) {
+	.mainContent { right: auto; left: 23%;}
+}
+
+@media (max-width: 450px) {
 	.mainContent { right: auto; left: 20%;}
 }
 
@@ -109,8 +139,16 @@ a:hover, a:focus {
 	.mainContent { right: auto; left: 15%;}
 }
 
+@media (max-width: 350px) {
+	.mainContent { right: auto; left: 10%;}
+}
+
 @media (max-width: 300px) {
-	.mainContent { right: auto; left: 5%;}
+	.mainContent { right: auto; left: 4%;}
+}
+
+@media (max-width: 250px) {
+	.mainContent { right: auto; left: 2%;}
 }
 
 @media (max-width: 200px) {
