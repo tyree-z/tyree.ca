@@ -2,11 +2,13 @@
     font-family: 'Moon';
     src: url('fonts/Moon_Light.otf') format('opentype');
 }
+
 @font-face {
     font-family: 'Moon';
     font-weight: bold;
     src: url('fonts/Moon_Bold.otf') format('opentype');
 }
+
 html,body { 
 	height: 100%; 
 	overflow: hidden;
@@ -26,9 +28,11 @@ a {
 	text-decoration: none; 
 	transition: 0.3s; 
 }
+
 a:hover, a:focus { 
 	color: rgb(164, 163, 163); 
 }
+
 .mainContent { 
 	position: absolute; 
 	top: 50%; 
@@ -39,6 +43,7 @@ a:hover, a:focus {
 	right: 500px;
 	left: 500px;
 }
+
 .canvasContent { 
 	position: absolute; 
 }
@@ -48,32 +53,39 @@ a:hover, a:focus {
 	color: #D8D8D8;
 	text-shadow:1px 1px 15px #000;
 }
+
 .bShelf { 
 	font-size: 12px; 
 	font-weight: bold; 
 	color: #D8D8D8; 
 	text-shadow:1px 1px 15px #000;
 }
+
 .bShelf a { 
 	margin: 0 10px; 
 }
+
 .bShelf .fa { 
 	margin: 0 2px; 
 	font-size: 16px; 
 	transition: 0.3s; 
 }
+
 .bShelf a:hover .fa-snapchat-ghost { 
 	transition: 0.3s; 
 	color: #FFFC00; 
 }
+
 .bShelf a:hover .fa-github { 
 	transition: 0.3s; 
 	color: #4078c0; 
 }
+
 .bShelf a:hover .fa-instagram { 
 	transition: 0.3s; 
 	color: #833ab4; 
 }
+
 .bShelf a:hover .fa-envelope { 
 	transition: 0.3s; 
 	color: #fd9800; 
@@ -82,6 +94,7 @@ a:hover, a:focus {
 @media (max-width: 1000px) {
 	.mainContent { right: auto; left: 21%;}
 }
+
 @media (max-width: 950px) {
 	.mainContent { right: auto; left: 20%;}
 }
@@ -96,7 +109,6 @@ a:hover, a:focus {
     .bShelf { margin-top: 10px; }
 	.bShelf a { display: block; margin: 30px 0 0 10px; }
 	.mainContent { right: auto; left: 33%;}
-
 }
 
 @media (max-width: 800px) {
@@ -105,12 +117,12 @@ a:hover, a:focus {
     .bShelf { margin-top: 10px; }
 	.bShelf a { display: block; margin: 30px 0 0 10px; }
 	.mainContent { right: auto; left: 32%;}
-
 }
 
 @media (max-width: 750px) {
 	.mainContent { right: auto; left: 32%;}
 }
+
 @media (max-width: 700px) {
 	.mainContent { right: auto; left: 30%;}
 }
