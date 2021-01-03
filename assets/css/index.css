@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Moon';
-    src: url('fonts/Moon_Light.otf') format('opentype');
+	font-family: 'Moon';
+	src: url('fonts/Moon_Light.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'Moon';
-    font-weight: bold;
-    src: url('fonts/Moon_Bold.otf') format('opentype');
+	font-family: 'Moon';
+	font-weight: bold;
+	src: url('fonts/Moon_Bold.otf') format('opentype');
 }
 
 html,body { 
@@ -104,17 +104,17 @@ a:hover, a:focus {
 }
 
 @media (max-width: 850px) {
-    .name { font-size: 20px; }
-    .name nobr { display: block; }
-    .bShelf { margin-top: 10px; }
+	.name { font-size: 20px; }
+	.name nobr { display: block; }
+	.bShelf { margin-top: 10px; }
 	.bShelf a { display: block; margin: 30px 0 0 10px; }
 	.mainContent { right: auto; left: 33%;}
 }
 
 @media (max-width: 800px) {
-    .name { font-size: 20px; }
-    .name nobr { display: block; }
-    .bShelf { margin-top: 10px; }
+	.name { font-size: 20px; }
+	.name nobr { display: block; }
+	.bShelf { margin-top: 10px; }
 	.bShelf a { display: block; margin: 30px 0 0 10px; }
 	.mainContent { right: auto; left: 32%;}
 }
@@ -136,10 +136,10 @@ a:hover, a:focus {
 }
 
 @media (max-width: 550px) {
-    .name { font-size: 20px; }
-    .name nobr { display: block; }
-    .bShelf { margin-top: 10px; }
-    .bShelf a { display: block; margin: 30px 0 0 10px; }
+	.name { font-size: 20px; }
+	.name nobr { display: block; }
+	.bShelf { margin-top: 10px; }
+	.bShelf a { display: block; margin: 30px 0 0 10px; }
 	.mainContent { right: auto; left: 25%;}
 }
 
