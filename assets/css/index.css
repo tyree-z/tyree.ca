@@ -36,8 +36,8 @@ a:hover, a:focus {
 	padding: 20px; 
 	font-family: 'Moon', sans-serif; 
 	text-align: center; 
-	right: 50px;
-	left: 50px;
+	right: 20px;
+	left: 20px;
 }
 .canvasContent { 
 	position: absolute; 
@@ -46,6 +46,8 @@ a:hover, a:focus {
 	font-size: 150%; 
 	color: #CCC;
 	text-shadow:1px 1px 15px #000;
+	right: 50px;
+	left: 50px;
 }
 .bShelf { 
 	font-size: 12px; 
