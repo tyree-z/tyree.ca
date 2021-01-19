@@ -95,6 +95,8 @@ a:hover, a:focus {
 	}
 	.bShelf { 
 		font-size: 4px; 
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.mainContent { 
 		right: 50px;
