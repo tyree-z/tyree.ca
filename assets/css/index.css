@@ -80,7 +80,7 @@ a:hover, a:focus {
 /*Mobile Devices*/
 @media (max-width: 500px) {
 	.name { 
-		font-size: 100%;
+		font-size: 150%;
 	}
 	.bShelf { 
 		font-size: 12px; 
