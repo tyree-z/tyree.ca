@@ -54,6 +54,8 @@ a:hover, a:focus {
 	font-weight: bold; 
 	color: #CCC; 
 	text-shadow:1px 1px 15px #000;
+	overflow: hidden;
+	white-space: pre-line;
 }
 .bShelf a { 
 	margin: 0 10px; 
