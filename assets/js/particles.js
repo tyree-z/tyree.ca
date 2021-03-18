@@ -81,6 +81,7 @@ function connect(){
 				ctx.moveTo(p1.x, p1.y);
 				// ctx.strokeStyle = 'hsla(' + p1.hue + ', 50%, 50%, ' + (1 - currentDist * 0.01) + ')';
 				ctx.strokeStyle = 'hsla(' + p1.hue + ', 50%, 50%, ' + (1 - currentDist * 100 / ConnectionDist * 0.01) + ')';
+				ctx.lineWidth = 2;
 				//ctx.quadraticCurveTo(p2.x, p2.y, p1.x, p1.y);
 				ctx.lineTo(p2.x, p2.y, p1.x, p1.y);
 				ctx.stroke();
