@@ -58,9 +58,7 @@ a:hover, a:focus {
 	white-space: pre-line;
 	line-height: 25px;
 }
-.bShelf a { 
-	margin: 0 10px; 
-}
+
 .bShelf .fa { 
 	margin: 0 2px; 
 	font-size: 16px; 
@@ -96,10 +94,28 @@ a:hover, a:focus {
 /*the low res bois devices*/
 @media (max-width: 200px) {
 	.name { 
+		font-size: 80%;
+	}
+	.bShelf { 
+		font-size: 7px;
+		white-space: normal;
+		line-height: 13px;
+		overflow: inherit;
+	}
+	.mainContent { 
+		right: 50px;
+		left: 20px;
+	}
+}
+/**super low res bois*/
+@media (max-width: 160px) {
+	.name { 
 		font-size: 40%;
 	}
 	.bShelf { 
 		font-size: 4px;
+		left: -20%;
+		position: absolute;
 	}
 	.mainContent { 
 		right: 50px;
