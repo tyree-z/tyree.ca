@@ -9,6 +9,8 @@
 	font-weight: bold;
 	src: url('fonts/Moon_Bold.otf') format('opentype');
 }
+
+
 html,body { 
 	height: 100%; 
 	overflow: hidden;
@@ -18,17 +20,25 @@ html,body {
 	margin-right: 0px;
 	margin-top: 0px;
 }
+
+
 canvas { 
 	position: relative;
 }
+
+
 a { 
 	color: #D8D8D8; 
 	text-decoration: none; 
 	transition: 0.3s; 
 }
+
+
 a:hover, a:focus { 
 	color: rgb(164, 163, 163); 
 }
+
+
 .mainContent { 
 	position: absolute; 
 	top: 50%; 
@@ -39,9 +49,13 @@ a:hover, a:focus {
 	right: 20px;
 	left: 20px;
 }
+
+
 .canvasContent { 
 	position: absolute; 
 }
+
+
 .name { 
 	font-size: 150%; 
 	color: #CCC;
@@ -49,6 +63,8 @@ a:hover, a:focus {
 	right: 50px;
 	left: 50px;
 }
+
+
 .bShelf { 
 	font-size: 12px; 
 	font-weight: bold; 
@@ -59,64 +75,88 @@ a:hover, a:focus {
 	line-height: 25px;
 }
 
+
 .bShelf .fa { 
 	margin: 0 2px; 
 	font-size: 16px; 
 	transition: 1s; 
 }
+
+
 .bShelf a:hover .fa-snapchat-ghost { 
 	transition: 0.3s; 
 	color: #FFFC00; 
 }
+
+
 .bShelf a:hover .fa-github { 
 	transition: 0.3s; 
 	color: #4078c0; 
 }
+
+
 .bShelf a:hover .fa-instagram { 
 	transition: 0.3s; 
 	color: #833ab4; 
 }
+
+
 .bShelf a:hover .fa-envelope { 
 	transition: 0.3s; 
 	color: #fd9800; 
 }
+
+
+
 /*Mobile Devices*/
 @media (max-width: 500px) {
 	.name { 
 		font-size: 150%;
 	}
+
+
 	.bShelf { 
 		font-size: 12px; 
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 }
+
 /*the low res bois devices*/
 @media (max-width: 200px) {
 	.name { 
 		font-size: 80%;
 	}
+
+
 	.bShelf { 
 		font-size: 7px;
 		white-space: normal;
 		line-height: 13px;
 		overflow: inherit;
 	}
+
+
 	.mainContent { 
 		right: 50px;
 		left: 20px;
 	}
 }
+
 /**super low res bois*/
 @media (max-width: 160px) {
 	.name { 
 		font-size: 40%;
 	}
+
+
 	.bShelf { 
 		font-size: 4px;
 		left: -20%;
 		position: absolute;
 	}
+
+	
 	.mainContent { 
 		right: 50px;
 		left: 20px;
