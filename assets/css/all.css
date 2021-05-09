@@ -4583,37 +4583,37 @@ readers do not read off random characters that represent icons */
   overflow: visible;
   position: static;
   width: auto; }
-@font-face {
-  font-family: 'Font Awesome 5 Brands';
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url("https://ipfs.io/ipfs/QmWZ1TPnBD8FksT3pqFPSbAF358QK38CMDfF3cuDmrX2yV?filename=fa-brands-400.eot");
-  src: url("https://ipfs.io/ipfs/QmWZ1TPnBD8FksT3pqFPSbAF358QK38CMDfF3cuDmrX2yV?filename=fa-brands-400.eot?#iefix") format("embedded-opentype"), url("https://ipfs.io/ipfs/Qmd1RP4tVwTBfTyXbqhxuXSzEMXg7RjPrsru5MX4abJvQM?filename=fa-brands-400.woff2") format("woff2"), url("https://ipfs.io/ipfs/QmdSzECgeiL3x47wB8YipUf8JRkRVW9TBjV6XGjxA1tLVW?filename=fa-brands-400.woff") format("woff"), url("https://ipfs.io/ipfs/QmZHwTL96biSDh8by7TqoyecA55oy2KiTvMowLZEktMdkq?filename=fa-brands-400.ttf") format("truetype"), url("https://ipfs.io/ipfs/QmViFZ31Usa14gP274MrGS1kx51qvAQyCdCZB4ztbEcsxa?filename=fa-brands-400.svg#fontawesome") format("svg"); }
-
-.fab {
-  font-family: 'Font Awesome 5 Brands';
-  font-weight: 400; }
-@font-face {
-  font-family: 'Font Awesome 5 Free';
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url("https://ipfs.io/ipfs/QmamrJ5JmHrfJuvp2Y8TQA8bX4f186dhZ9LMmUZcstK6Pt?filename=fa-regular-400.eot");
-  src: url("https://ipfs.io/ipfs/QmamrJ5JmHrfJuvp2Y8TQA8bX4f186dhZ9LMmUZcstK6Pt?filename=fa-regular-400.eot?#iefix") format("embedded-opentype"), url("https://ipfs.io/ipfs/QmQxvqhXz9nLcHnrZepezUHpEkpPAFXu3nCgKvqyuJwbVm?filename=fa-regular-400.woff2") format("woff2"), url("https://ipfs.io/ipfs/QmehE1oVawifRFKLn2n2xKzjvcwhgcJoNW4FpTzh3RxyKa?filename=fa-regular-400.woff") format("woff"), url("https://ipfs.io/ipfs/QmbnGYEVNPYu8UcAo4gBjwjtLLPDX7caEM6pzpWobwoNsT?filename=fa-regular-400.ttf") format("truetype"), url("https://ipfs.io/ipfs/QmTKibjBSjeX76KCeBKW7PhFR6zZxsbSZReesBajoFC95T?filename=fa-regular-400.svg#fontawesome") format("svg"); }
-
-.far {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 400; }
-@font-face {
-  font-family: 'Font Awesome 5 Free';
-  font-style: normal;
-  font-weight: 900;
-  font-display: block;
-  src: url("https://ipfs.io/ipfs/QmPS4FRYCo32KGskf7DJHHQTkP4JE45wFCXK7ZdYaJzTYr?filename=fa-solid-900.eot");
-  src: url("https://ipfs.io/ipfs/QmPS4FRYCo32KGskf7DJHHQTkP4JE45wFCXK7ZdYaJzTYr?filename=fa-solid-900.eot?#iefix") format("embedded-opentype"), url("https://ipfs.io/ipfs/QmcjSbx4THojSC7RwC2JYS4FPw4zaXDPFGh51ZNReeoNzK?filename=fa-solid-900.woff2") format("woff2"), url("https://ipfs.io/ipfs/QmXHLhDnx5DLLECYmmQtyUkK8uyQhKqfY6CMqefnCCH8tA?filename=fa-solid-900.woff") format("woff"), url("https://ipfs.io/ipfs/QmW7Vj4yZf3KTc15J7Uy6gcVkFAmfDH7MeEEBarKVvnSdm?filename=fa-solid-900.ttf") format("truetype"), url("https://ipfs.io/ipfs/QmZz6dDrxe2FPEKjdP7g7w426cYfsUfGxRQ8nDHhyeXqTG?filename=fa-solid-900.svg#fontawesome") format("svg"); }
-
-.fa,
-.fas {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900; }
+  @font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../webfonts/fa-brands-400.eot");
+    src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+  
+  .fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400; }
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../webfonts/fa-regular-400.eot");
+    src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+  
+  .far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400; }
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../webfonts/fa-solid-900.eot");
+    src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  
+  .fa,
+  .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; }
