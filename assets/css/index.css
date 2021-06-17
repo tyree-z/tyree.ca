@@ -162,3 +162,7 @@ a:hover, a:focus {
 		left: 20px;
 	}
 }
+
+hr.solid {
+	width: 10%;
+  }
