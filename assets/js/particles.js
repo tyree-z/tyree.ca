@@ -6,8 +6,8 @@ let canvas = document.getElementById("canvas"),
 	particles = [];
 
 const Tau = Math.PI * 1,
-	  ConnectionDist = (( window.innerWidth <= 500 ) && ( window.innerHeight <= 800 )) ? 90:130, //Left of : is Mobile
-	  maxParticles = (( window.innerWidth <= 500 ) && ( window.innerHeight <= 800 )) ? 60:200, 
+	  ConnectionDist = (( window.innerWidth <= 500 ) && ( window.innerHeight <= 800 )) ? 90:200, //Left of : is Mobile
+	  maxParticles = (( window.innerWidth <= 500 ) && ( window.innerHeight <= 800 )) ? 60:250, 
 	  radius = 2,
       Msqrt = Math.sqrt,
 	  Mrandom = Math.random;
