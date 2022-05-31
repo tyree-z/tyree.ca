@@ -7,8 +7,8 @@ let canvas = document.getElementById("canvas"),
 
 
 const Tau = Math.PI * 1,
-	  ConnectionDist = (( window.innerWidth <= 500 ) && ( window.innerHeight <= 800 )) ? 90:200, //Left of : is Mobile
-	  maxParticles = (( window.innerWidth <= 500 ) && ( window.innerHeight <= 800 )) ? 60:250, 
+	  ConnectionDist = Math.round(window.innerWidth * 0.05),
+	  maxParticles = Math.round(window.innerHeight * 0.18), 
 	  radius = 2,
       Msqrt = Math.sqrt,
 	  Mrandom = Math.random;
@@ -81,9 +81,9 @@ function connect(){
 				ctx.beginPath();
 				ctx.moveTo(p1.x, p1.y);
 				// ctx.strokeStyle = 'hsla(' + p1.hue + ', 50%, 50%, ' + (1 - currentDist * 0.01) + ')';
-				ctx.strokeStyle = 'hsla(' + p1.hue + ', 50%, 50%, ' + (1 - currentDist * 100 / ConnectionDist * 0.01) + ')';
+				ctx.strokeStyle = 'hsla(' + 280 + ', 100%, 50%, ' + (1 - currentDist * 100 / ConnectionDist * 0.01) + ')';
 				ctx.lineWidth = 2;
-				//ctx.quadraticCurveTo(p2.x, p2.y, p1.x, p1.y);
+				// ctx.quadraticCurveTo(p2.x, p2.y, p1.x, p1.y);
 				ctx.lineTo(p2.x, p2.y, p1.x, p1.y);
 				ctx.stroke();
 			}
