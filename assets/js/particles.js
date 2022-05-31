@@ -7,7 +7,7 @@ let canvas = document.getElementById("canvas"),
 
 
 const Tau = Math.PI * 1,
-	  ConnectionDist = Math.round(window.innerWidth * 0.05),
+	  ConnectionDist = Math.round(window.innerWidth * 0.08),
 	  maxParticles = Math.round(window.innerHeight * 0.18), 
 	  radius = 2,
       Msqrt = Math.sqrt,
@@ -98,7 +98,7 @@ function draw() {
 		d = getDistance(midX, p.x, h, p.y);
 		p.hue = d;
 		ctx.beginPath();
-		ctx.fillStyle = 'hsla(' + d + ' , 50%, 30%, 1)';
+		ctx.fillStyle = 'hsla(' + 280 + ' , 50%, 30%, 1)';
 		ctx.arc(p.x, p.y, radius, 0, Tau);
 		ctx.fill();
 	}
