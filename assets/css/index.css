@@ -3,11 +3,13 @@
 @font-face {
 	font-family: 'Moon';
 	src: url('fonts/Moon_Light.otf') format('opentype');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'Moon';
 	font-weight: bold;
 	src: url('fonts/Moon_Bold.otf') format('opentype');
+	font-display: swap;
 }
 
 
@@ -66,13 +68,13 @@ a:hover, a:focus {
 
 
 .bShelf { 
-	font-size: 12px; 
+	font-size: 15px; 
 	font-weight: bold; 
 	color: #CCC; 
 	text-shadow:1px 1px 15px #000;
 	overflow: hidden;
 	white-space: pre-line;
-	line-height: 25px;
+	line-height: 27px;
 }
 
 
@@ -83,25 +85,25 @@ a:hover, a:focus {
 }
 
 
-.bShelf a:hover .fa-snapchat-ghost { 
+.bShelf a:hover .ti-brand-snapchat { 
 	transition: 0.3s; 
 	color: #FFFC00; 
 }
 
 
-.bShelf a:hover .fa-github { 
+.bShelf a:hover .ti-brand-github { 
 	transition: 0.3s; 
 	color: #4078c0; 
 }
 
 
-.bShelf a:hover .fa-instagram { 
+.bShelf a:hover .ti-brand-instagram { 
 	transition: 0.3s; 
 	color: #833ab4; 
 }
 
 
-.bShelf a:hover .fa-envelope { 
+.bShelf a:hover .ti-at { 
 	transition: 0.3s; 
 	color: #fd9800; 
 }
