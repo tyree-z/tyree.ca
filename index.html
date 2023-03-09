@@ -2,9 +2,9 @@
 <html lang="en">
    <head>
       <title>Tyree Zacharopoulos</title>
-      <link rel="shortcut icon" href="https://files.cdn0.ca/tyree/root/icons/favicon.ico">
-      <link rel="icon" type="image/png" href="https://files.cdn0.ca/tyree/root/icons/android-chrome-192x192.png" sizes="192x192">
-      <link rel="apple-touch-icon" sizes="180x180" href="https://files.cdn0.ca/tyree/root/icons/apple-touch-icon.png">
+      <link rel="shortcut icon" href="https://files.cdn0.ca/tyree/root/icons/favicon.ico" />
+      <link rel="icon" type="image/png" href="https://files.cdn0.ca/tyree/root/icons/android-chrome-192x192.png" sizes="192x192" />
+      <link rel="apple-touch-icon" sizes="180x180" href="https://files.cdn0.ca/tyree/root/icons/apple-touch-icon.png" />
       <meta charset="UTF-8" />
       <meta name="description" content="Tyree Zacharopoulos' Website" />
       <meta name="keywords" content="Tyree, Tyree Zacharopoulos, Zacharopoulos" />
@@ -34,6 +34,29 @@
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y4XHP8ZHZ0"></script>
       <script async src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script>
       <script src="https://betteruptime.com/widgets/announcement.js" data-id="152728" async="async" type="text/javascript"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/picasso-canvas-fingerprinting/src/canvas.js"></script>
+      <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+      <script>
+         const params = {
+            area: {
+               width: 300,
+               height: 300,
+            },
+            offsetParameter: 2001000001,
+            fontSizeFactor: 1.5,
+            multiplier: 15000,
+            maxShadowBlur: 50,
+         };
+         const numShapes = 5;
+         const initialSeed = 69;
+
+         const canvasValue = picassoCanvas(numShapes, initialSeed, params);
+         $(document).ready(function () {
+            document.getElementById("bFP").innerHTML = canvasValue;
+         });
+         console.log(`Browser Fingerprint = ${canvasValue}`);
+      </script>
 
       <script>
          window.dataLayer = window.dataLayer || [];
@@ -586,8 +609,9 @@
                               <a href="." class="link-secondary">Tyree Zacharopoulos</a>. All rights reserved.
                            </li>
                            <li class="list-inline-item">
-                              <a class="link-secondary shadowText" rel="noopener"> v1.1.2 </a>
+                              <a class="link-secondary shadowText" rel="noopener"> v1.1.3 </a>
                            </li>
+                           <li class="list-inline-item">BrowserID: <a id="bFP"></a></li>
                         </ul>
                      </div>
                   </div>
